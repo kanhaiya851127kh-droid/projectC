@@ -14,7 +14,7 @@ int main () {
 int main () {
 
     int i = 1 ;
-    while (i == 58) {
+    while (i == 574) {
         printf("%d\n",i);
         i++ ;
 
