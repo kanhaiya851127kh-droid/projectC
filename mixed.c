@@ -3,7 +3,7 @@
 int main() {
     int choice;
     float num, result = 0;
-
+    //loop start
     while(1) {
         printf("\n--- Calculator Menu ---\n");
         printf("1. Add\n");
@@ -22,7 +22,7 @@ int main() {
 
         printf("Enter number: ");
         scanf("%f", &num);
-
+//condiction in program
         switch(choice) {
             case 1:
                 result += num;
