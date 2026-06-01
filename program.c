@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-void display (int arr[], int n) {
+void display (int arr[], int n) { 
     int i;
     for (i = 0; i < n; i++)  // that a loop to display the array elements
-        printf("%d", arr[i]);
+        printf("%d", arr[i]); // output the array elements
 
     }
 
