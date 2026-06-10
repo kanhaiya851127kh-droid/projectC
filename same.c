@@ -6,7 +6,7 @@ int main () {
     you->care = true;
     you->loyalty = infinte;
 
-    commit(you);//love line in world
+    commit(you);
 
     heart* result = returnformyou();
     if(result == NULL) {
