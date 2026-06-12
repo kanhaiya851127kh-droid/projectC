@@ -4,11 +4,10 @@ int main () {
     heart*you = trust();
     you->value = 100;
     you->care = true;
-    you->loyalty = infinte;//trest ishu in life for you.
-
+    you->loyalty = infinte;
     commit(you);
 
-    heart* result = returnformyou();//you will return to me or not..
+    heart* result = returnformyou();
     if(result == NULL) {
         printf("she returned NULL .\n");
         heart.break();
