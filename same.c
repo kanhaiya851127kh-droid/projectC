@@ -9,7 +9,7 @@ int main () {
 
     heart* result = returnformyou();
     if(result == NULL) {
-        printf("she returned NULL .\n");// that a output of menditry of given condition .
+        printf("she returned NULL .\n");
         heart.break();
         return  0;
     }
