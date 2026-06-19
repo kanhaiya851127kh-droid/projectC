@@ -1,17 +1,41 @@
-#include<heart.h>
-int main () {
+#include <stdio.h>
+#include <stdbool.h>
 
-    heart*you = trust();
+typedef struct {
+    int value;
+    bool care;
+    int loyalty;
+} heart;
+
+heart* trust() {
+    static heart h;
+    return &h;
+}
+
+void commit(heart* h) {
+    printf("Committed with value: %d\n", h->value);
+}
+
+heart* returnFromYou() {
+    return NULL; // simulate rejection 💔
+}
+
+int main() {
+
+    heart* you = trust();
     you->value = 100;
     you->care = true;
-    you->loyalty = infinte;
+    you->loyalty = 9999;
+
     commit(you);
 
-    heart* result = returnformyou();
+    heart* result = returnFromYou();
+
     if(result == NULL) {
-        printf("she returned NULL .\n");
-        heart.break();
-        return  0;
+        printf("She returned NULL.\n");
+        printf("Heart broken 💔\n");
+        return 0;
     }
+
     return 0;
 }
