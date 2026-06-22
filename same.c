@@ -17,7 +17,7 @@ void commit(heart* h) {
 }
 
 heart* returnFromYou() {
-    return NULL; // simulate rejection 💔
+    return NULL; 
 }
 
 int main() {
