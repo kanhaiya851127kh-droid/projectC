@@ -46,4 +46,3 @@ int main() {
 	return 0;
 	
 }
- that a code of first tin=\jxn hjc kind of lost eirjgoi 
