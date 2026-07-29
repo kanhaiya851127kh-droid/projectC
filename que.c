@@ -39,4 +39,4 @@ int main(){
 
     printf("the queb of %d is : ", num,queb);
 
-    return 
+    return 0;
