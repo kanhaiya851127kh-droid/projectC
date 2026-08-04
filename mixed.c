@@ -22,7 +22,7 @@ int main() {
 
         printf("Enter number: ");
         scanf("%f", &num);
-//condiction in program
+// that condiction case base in program
         switch(choice) {
             case 1:
                 result += num;
