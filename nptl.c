@@ -298,9 +298,9 @@ int main() {
 
                 if (currentUser->followerCount == 0) {
                     printf("No followers.\n");
-                }
+#                }
                 else {
-                    for (int i = 0;
+ #                   for (int i = 0;
                          i < currentUser->followerCount;
                          i++) {
 
