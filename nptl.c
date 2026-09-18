@@ -353,8 +353,7 @@ int main() {
                     printf("%s was removed from your followers.\n",
                            username);
                 else
-                    printf("%s is not your follower.\n"
-                           username);
+                    printf("%s is not your follower.\n", username);
             }
 
             else if (choice == 6) {
