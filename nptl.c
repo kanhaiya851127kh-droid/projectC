@@ -350,8 +350,7 @@ int main() {
                     findUser(head, username);
 
                 if (removeFollower(currentUser, otherUser))
-                    printf("%s was removed from your followers.\n",
-                           username);
+                    printf("%s was removed from your followers.\n", username);
                 else
                     printf("%s is not your follower.\n", username);
             }
