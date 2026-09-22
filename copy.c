@@ -1,19 +1,4 @@
-            if (choice == 1) {
-
-                scanf("%20s", username);
-
-                struct User *otherUser =
-                    findUser(head, username);
-
-                if (followUser(currentUser, otherUser))
-                    printf("Successfully followed %s.\n",
-                           username);
-                else
-                    printf("Cannot follow %s.\n", username);
-            }
-
-            else if (choice == 2) {
-
+        
                 printf("\nFollowers:\n");
 
                 if (currentUser->followerCount == 0) {
