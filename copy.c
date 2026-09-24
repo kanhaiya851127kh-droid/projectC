@@ -1,5 +1,4 @@
-        
-                printf("\nFollowers:\n");
+  printf("\nFollowers:\n");
 
                 if (currentUser->followerCount == 0) {
                     printf("No followers.\n");
